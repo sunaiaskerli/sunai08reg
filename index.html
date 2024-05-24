@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="shortcut icon" href="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-tovarnii-znak-na-prozrachnom-fone-35.jpg" type="image/x-icon">
+    <style>
+      @media print {
+        body {
+          font-size: 10pt;
+        }
+      }
+      @media screen {
+        body {
+          font-size: 13px;
+        }
+      }
+      @media screen, print {
+        body {
+          line-height: 1.2;
+        }
+      }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          line-height: 1.4;
+        }
+      }
+
+      
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+        *{
+            font-family: "Oswald", sans-serif;
+        }
+        body{
+            width: 100%;
+            height: auto;
+            background: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        div{
+            background: white;
+            width: 313px;
+            position: relative;
+            top: 45vh;
+        }
+        #password{
+            width: 135px;
+        }
+        ul{
+            position: absolute;
+            top: 115px;
+            left: 78px;
+        }
+    
+    </style>
+    <link rel="shortcut icon" href="https://gas-kvas.com/grafic/uploads/posts/2024-01/gas-kvas-com-p-tovarnii-znak-na-prozrachnom-fone-35.jpg" type="image/x-icon">
+</head>
+<body>
+    <div>
+    <fieldset>
+        <legend>Заявка</legend>
+        <fieldset>
+            <legend>
+                <label for="email">Имя</label>
+            </legend>
+            <input type="email" id="email" required="" placeholder="Имя" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>
+                <label for="password">Телефон</label>
+            </legend>
+            <input type="password" id="password" maxlength="12" required="" placeholder="+7 000 000 00" name="Пароль">
+        </fieldset>
+        <button style="background: darkblue; 
+        color: white;
+        position: relative;
+        top: 5px;
+        left: 3px;" onclick="getvalue()">Заявка</button>
+    </fieldset>
+    <ul>
+        <li><a href="Entrance.html">Помощь по заявке</a></li>
+    </ul>
+    <script src="script.js"></script>
+    </div>
+</body>
+</html>
